@@ -4,6 +4,10 @@
 
 We have built a Streamlit application that answers any query related to MyProtein Whey Powder using Generative QA by using the Retrieval-Augmented Generation (RAG) method.
 
+# Architecture 
+
+
+
 # Overview
 The repository contains the following files:
 
