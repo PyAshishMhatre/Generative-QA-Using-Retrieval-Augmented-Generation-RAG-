@@ -34,7 +34,12 @@ We have used the Whisper model to transcribe the YouTube videos related to MyPro
 When the user makes any query, the query is converted to a vector embedding using the same model, which is used to query the Pinecone database. The Pinecone database returns a response of matching/similar text transcriptions for videos. These transcriptions are then used to form a context for the prompt, which is finally passed to the 'text-davinci-003' model of OpenAI to generate a response that correctly answers the query as per the prompt rather than an uncertain or incorrect response.
 
 # Conclusion
-We hope this repository will be helpful to anyone who wants to use Generative QA by using the RAG method to answer queries related to MyProtein Whey Powder. If you have any questions or feedback, please feel free to create an issue or pull request in this repository.
+We hope this repository will be helpful to anyone who wants to use Generative QA by using the RAG method to answer queries. 
+
+If you have any questions or feedback, please feel free to create an issue or pull request in this repository.
+
+# Contact
+[Ashish Mhatre](https://www.linkedin.com/in/ashishmhatre927/) and [Ashwin Kadam](https://www.linkedin.com/in/ashwinkadam07/)
 
 
 
