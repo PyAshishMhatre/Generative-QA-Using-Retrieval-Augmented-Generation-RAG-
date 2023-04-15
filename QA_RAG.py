@@ -13,7 +13,7 @@ def complete(prompt):
     res = openai.Completion.create(
         engine='text-davinci-003',
         prompt=prompt,
-        temperature=0,
+        temperature=0.3,
         max_tokens=400,
         top_p=1,
         frequency_penalty=0,
